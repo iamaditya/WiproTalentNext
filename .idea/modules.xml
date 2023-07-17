@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/First/First.iml" filepath="$PROJECT_DIR$/First/First.iml" />
       <module fileurl="file://$PROJECT_DIR$/JunitLearning/JunitLearning.iml" filepath="$PROJECT_DIR$/JunitLearning/JunitLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WiproTalentNext.iml" filepath="$PROJECT_DIR$/.idea/WiproTalentNext.iml" />
     </modules>
   </component>
