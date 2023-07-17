@@ -6,12 +6,14 @@ public class ThreadClass extends Thread{
     public void run(){
         System.out.println(currentThread().getName());
         currentThread().setName("Aditya");
-        for (int i=0;i<5;i++){
-            try{
-                Thread.sleep(500);
-                System.out.println("Hi"+ i);
-
+        for (int i=0;i<10;i++){
+                if(i == 6){
+                try{
+                Thread.sleep(5000);
+                    System.out.println(i);
             }catch(Exception e){}
+        }else{
+                    System.out.println(i);}
         }
         System.out.println(currentThread().getName());
 
