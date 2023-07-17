@@ -1,19 +1,11 @@
 package com.wipro.test;
-
 import com.wipro.task.DailyTasks;
 import org.junit.*;
-
-import java.util.Arrays;
-
 import static org.junit.Assert.*;
-public class testStringConcat {
-
+public class TestPresenceString {
     @Test
-    public void teststring(){
+    public void testpresent(){
         DailyTasks d1 = new DailyTasks();
-
-        assertEquals("hello aditya",d1.doStringConcat("hello","aditya"));
+        assertTrue(d1.checkPresence("aditya sharma","sharma"));
     }
-
-
 }

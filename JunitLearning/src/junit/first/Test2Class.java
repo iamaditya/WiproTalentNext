@@ -2,7 +2,7 @@ package junit.first;
 import org.junit.*;
 public class Test2Class {
 @Test
-    public void testme2(){
+    public void testme(){
     System.out.println("helloo");
 }
 
