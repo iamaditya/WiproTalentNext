@@ -5,7 +5,16 @@ public class ThreadClass extends Thread{
     @Override
     public void run(){
         System.out.println(currentThread().getName());
-        System.out.println("Hey");
+        currentThread().setName("Aditya");
+        for (int i=0;i<5;i++){
+            try{
+                Thread.sleep(500);
+                System.out.println("Hi"+ i);
+
+            }catch(Exception e){}
+        }
+        System.out.println(currentThread().getName());
+
     }
 
     public static void main(String[] args) {
@@ -15,5 +24,6 @@ public class ThreadClass extends Thread{
 
 //        print name of thread
         System.out.println(currentThread().getName());
+        System.out.println(t1);
     }
 }
