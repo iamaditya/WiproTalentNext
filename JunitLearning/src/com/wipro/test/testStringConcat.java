@@ -23,7 +23,8 @@ public class testStringConcat {
         DailyTasks d1 = new DailyTasks();
 
         int result[] = d1.sortValues(arr);
-        assertTrue(Arrays.equals(result,sort));
+//        assertTrue(Arrays.equals(result,sort));
+        Assert.assertArrayEquals(sort,d1.sortValues(arr));
     }
 
     @Test
